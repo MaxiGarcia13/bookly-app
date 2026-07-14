@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@expo/ui": "~57.0.4",
+    "@maxigarcia/js-utils": "^1.12.0",
     "babel-preset-expo": "^57.0.2",
     "expo": "~57.0.4",
     "expo-constants": "~57.0.3",
