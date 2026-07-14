@@ -1,14 +1,22 @@
 {
-  "name": "my-expo-app",
+  "name": "bookly-app",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://github.com/MaxiGarcia13/bookly-app#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaxiGarcia13/bookly-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MaxiGarcia13/bookly-app/issues"
+  },
   "main": "expo-router/entry",
   "scripts": {
-    "start": "expo start",
+    "start": "expo start --clear",
     "reset-project": "node ./scripts/reset-project.js",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
+    "android": "npm run start -- --android",
+    "ios": "npm run start -- --ios",
+    "web": "npm run start -- --web",
     "lint": "eslint .",
     "lint:fix": "eslint --fix ."
   },
