@@ -1,7 +1,17 @@
 {
   "name": "my-expo-app",
-  "main": "expo-router/entry",
   "version": "1.0.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "reset-project": "node ./scripts/reset-project.js",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
   "dependencies": {
     "@expo/ui": "~57.0.4",
     "expo": "~57.0.4",
@@ -28,17 +38,10 @@
     "react-native-worklets": "0.10.0"
   },
   "devDependencies": {
+    "@eslint-react/eslint-plugin": "^3.0.0",
     "@maxigarcia/eslint-config": "^1.8.0",
     "@types/react": "~19.2.2",
+    "eslint-plugin-react-refresh": "^0.5.3",
     "typescript": "~6.0.3"
-  },
-  "scripts": {
-    "start": "expo start",
-    "reset-project": "node ./scripts/reset-project.js",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "lint": "expo lint"
-  },
-  "private": true
+  }
 }
