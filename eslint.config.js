@@ -1,4 +1,4 @@
-import { eslintConfig } from '@maxigarcia/eslint-config';
+const { eslintConfig } = require('@maxigarcia/eslint-config');
 
 export default eslintConfig(
   {
