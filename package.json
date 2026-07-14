@@ -13,10 +13,9 @@
   "main": "expo-router/entry",
   "scripts": {
     "start": "expo start --clear",
-    "reset-project": "node ./scripts/reset-project.js",
-    "android": "npm run start -- --android",
-    "ios": "npm run start -- --ios",
-    "web": "npm run start -- --web",
+    "start:android": "npm run start -- --android",
+    "start:ios": "npm run start -- --ios",
+    "start:web": "npm run start -- --web",
     "lint": "eslint .",
     "lint:fix": "eslint --fix ."
   },
