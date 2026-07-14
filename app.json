@@ -8,6 +8,7 @@
     "scheme": "myexpoapp",
     "userInterfaceStyle": "automatic",
     "ios": {
+      "bundler": "metro",
       "icon": "./assets/expo.icon"
     },
     "android": {
@@ -20,6 +21,7 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
+      "bundler": "metro",
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },

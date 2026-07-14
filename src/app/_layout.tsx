@@ -1,5 +1,13 @@
+import '../../global.css';
+
 import { Stack } from 'expo-router';
 
 export default function RootLayout() {
-  return <Stack />;
+  return (
+    <Stack
+      screenOptions={{
+        contentStyle: { flex: 1 },
+      }}
+    />
+  );
 }
