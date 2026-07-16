@@ -3,7 +3,7 @@ import Button from '@/components/button';
 
 export default function Index() {
   return (
-    <View className="flex-1 items-center justify-center">
+    <View className="flex-1 bg-red-500">
       <Button
         onPress={() => {
           console.warn('Pressed');
