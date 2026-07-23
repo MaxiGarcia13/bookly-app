@@ -7,6 +7,6 @@ export default eslintConfig(
     jsx: true,
   },
   {
-    ignores: ['node_modules', '.expo', 'assets'],
+    ignores: ['node_modules', '.expo'],
   },
 );
