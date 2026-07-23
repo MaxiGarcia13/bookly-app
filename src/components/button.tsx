@@ -21,7 +21,11 @@ export default function Button({ onPress, variant = 'primary', children, classNa
       className={cn(`rounded-md px-4 py-3`, variants[variant], className)}
       onPress={onPress}
     >
-      <Text className={cn('text-center font-semibold', textVariants[variant])}>{children}</Text>
+      {typeof children === 'string' || typeof children === 'number' ? (
+        <Text className={cn('text-center font-semibold', textVariants[variant])}>{children}</Text>
+      ) : (
+        children
+      )}
     </Pressable>
   );
 }
