@@ -11,18 +11,22 @@ export default function Index() {
     <View className="flex-1 gap-4">
       <View className="justify-end items-center flex-row gap-2">
         <Button
+          variant="ghost"
+          size="icon"
           onPress={() => {
             router.navigate('/chat');
           }}
         >
-          <MessagesIcon color="white" />
+          <MessagesIcon />
         </Button>
         <Button
+          variant="ghost"
+          size="icon"
           onPress={() => {
             router.navigate('/profile');
           }}
         >
-          <ProfileIcon color="white" />
+          <ProfileIcon />
         </Button>
       </View>
 
