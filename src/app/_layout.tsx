@@ -8,7 +8,13 @@ export default function RootLayout() {
       <Stack
         screenOptions={{
           headerShown: false,
-          contentStyle: { flex: 1 },
+          contentStyle: {
+            flex: 1,
+            padding: 16,
+            maxWidth: 900,
+            width: '100%',
+            margin: 'auto',
+          },
         }}
       />
     </SafeAreaView>
