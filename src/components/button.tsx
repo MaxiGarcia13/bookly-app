@@ -3,13 +3,13 @@ import { cn } from '@maxigarcia/js-utils';
 import { Pressable, Text } from 'react-native';
 
 const variants = {
-  primary: 'bg-blue-500 hover:bg-blue-600 active:bg-blue-700 active:opacity-90',
-  ghost: 'bg-transparent hover:bg-blue-50 active:bg-blue-100',
+  primary: 'bg-accent hover:bg-accent-hover active:bg-accent-hover active:opacity-90',
+  ghost: 'bg-transparent hover:bg-muted active:bg-muted',
 };
 
 const textVariants = {
-  primary: 'text-white',
-  ghost: 'text-blue-500',
+  primary: 'text-accent-foreground',
+  ghost: 'text-accent',
 };
 
 const sizes = {

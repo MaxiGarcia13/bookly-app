@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --palette-background: #f3f0fa;
+  --palette-foreground: #100e18;
+  --palette-muted: #e8e3f4;
+  --palette-muted-foreground: #3f3655;
+  --palette-surface: #ffffff;
+  --palette-surface-border: #b8a8e0;
+  --palette-accent: #b794ff;
+  --palette-accent-foreground: #0c0a14;
+  --palette-accent-hover: #c9aeff;
+  --palette-glow: rgb(183 159 255 / 0.35);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --palette-background: #0c0a14;
+    --palette-foreground: #f5f1ff;
+    --palette-muted: #1a1628;
+    --palette-muted-foreground: #b8b0d0;
+    --palette-surface: rgb(24 20 38 / 0.82);
+    --palette-surface-border: rgb(183 159 255 / 0.32);
+    --palette-glow: rgb(183 159 255 / 0.42);
+  }
+}
